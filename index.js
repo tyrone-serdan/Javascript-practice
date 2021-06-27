@@ -47,7 +47,7 @@ function onClicked() {
     var buttonPressed = this.innerHTML;
 
     console.log(buttonPressed, this);
-    // playSound(buttonPressed);
+    playSound(buttonPressed);
     buttonAnim(buttonPressed);
     
 }
@@ -58,7 +58,7 @@ function onKeyPress(event) {
     var keyPressed = event.key
 
     console.log(keyPressed);
-    // playSound(keyPressed);
+    playSound(keyPressed);
     buttonAnim(keyPressed);
 }
 
